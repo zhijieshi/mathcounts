@@ -4,7 +4,6 @@ What is the mean of all three-digit positive integers whose digits are in the se
 
 <details><summary>Solutions</summary>
 
-<p>
 ## Start by listing all numbers 
 
 A straightfoward way is to list all possible 3-dgit numbers that have only digits 2, 0, 1, and 9. All the numbers are between 100 and 999.  
@@ -37,7 +36,5 @@ You may continue to list all the numbers that start with 2, and all the numbers 
 
 It will take a while even if you use a calculator. Is there a faster way?
 
-
-</p>
 </details>
 
