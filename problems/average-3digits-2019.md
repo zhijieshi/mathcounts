@@ -6,9 +6,13 @@ What is the mean of all three-digit positive integers whose digits are in the se
 
 ## Start by listing all numbers 
 
-A straightfoward way is to list all possible 3-dgit numbers that have only digits 2, 0, 1, and 9. All the numbers are between 100 and 999.  
+A straightfoward way is to list all possible 3-dgit numbers that have digits 2, 0, 1, and 9 only, and then calcuate the mean of all the number. 
 
-The hundreds digit can only be 2, 1, or 9. Let us start from 1.
+Since we should consider 3-digit numbers only, the hundreds digit cannot be 0. So all the numbers we list should start with 2, 1, or 9 and they are between 100 and 999.  
+
+Let us start with numbers that have 1 as the hundreds digit. Note that a digit
+can appear more than once. For example, 100 should be included because all the
+digits in it, 1, 0, and 0, are in the set {2, 0, 1, 9}.
 
 | Hundreds | Tens | Units |
 |----------|------|-------|
@@ -29,12 +33,37 @@ The hundreds digit can only be 2, 1, or 9. Let us start from 1.
 | 1 | 9 | 2|
 | 1 | 9 | 9|
 
-These are all 3-dgits numbers that start from 1. There are a total of 16 
-numbers. 
+There are a total of 16 numbers that have 1 in hundreds place and all digits
+are in the set.   Why? It is because there are four choices at the tens place
+and four choices at the units place. 
 
-You may continue to list all the numbers that start with 2, and all the numbers that start with 9. Each case gives you 16 numbers. And in total you will get 48 numbers. You can compute the sum and the divide it by 48 to get the mean.  
+You may continue to list similar the numbers that have 2 or 9 in the hundreds place. 
+Each gives you 16 numbers. The pattern in the tens and units places are the same. 
+In total you will have 48 3-digit numbers that all their digits are in the set 
+{2, 0, 1, 9}. You can then compute their mean.  
 
-It will take a while even if you use a calculator. Is there a faster way?
+However, it will take a while to add up 48 numbers, even if you use a
+calculator. Is there a faster way?
+
+## Find the mean
+
+A faster way to find the mean of the 48 numbers is to find the digits in the
+mean one by one. 
+
+If you look carefully, you can see that 0, 1, 2, and 9 appear the same number
+of times (four times) in the tens and units place. Therefore, the units digit
+of the mean is the mean of 0, 1, 2, and 9. It should be 
+$ (0+1+2+9) / 4 = 3 $. Think about why yourself.
+
+The tens digit of the mean is the same because 0, 1, 2, and 9 appear the same
+number of times. It should be 3. 
+
+The hundreds digit of the mean is a little different becuase 0 is not there.
+Each of 1, 2, and 9 appears 16 times. So the hundreds of digit of the mean is
+
+$ ((1 + 2 + 9) * 16) / (3 * 26) =  (1 + 2 + 9) / 3 = 4 $.
+
+Now, we have figured out all the digits in the mean. The answer is 433.
 
 </details>
 
