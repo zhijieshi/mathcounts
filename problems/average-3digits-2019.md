@@ -4,7 +4,7 @@ What is the mean of all three-digit positive integers whose digits are in the se
 
 <details><summary>Solutions</summary>
 
-## Start by listing all numbers 
+## List all the numbers 
 
 A straightfoward way is to list all possible 3-dgit numbers that have digits 2, 0, 1, and 9 only, and then calcuate the mean of all the number. 
 
@@ -51,19 +51,31 @@ A faster way to find the mean of the 48 numbers is to find the digits in the
 mean one by one. 
 
 If you look carefully, you can see that 0, 1, 2, and 9 appear the same number
-of times (four times) in the tens and units place. Therefore, the units digit
-of the mean is the mean of 0, 1, 2, and 9. It should be 
-$ (0+1+2+9) / 4 = 3 $. Think about why yourself.
+of times (four times) in the tens and units place. If you include the nubmers
+that starts with 2 and 9, each of 0, 1, 2, and 9 appears 12 times. Therefore,
+the units digit of the mean is the mean of 0, 1, 2, and 9. It should be 
 
-The tens digit of the mean is the same because 0, 1, 2, and 9 appear the same
-number of times. It should be 3. 
+((0 + 1 + 2 + 9) * 12) / (4 * 12) = (0 + 1 + 2 + 9) / 4 = 3 . 
+
+The tens digit of the mean can be calculated similarly because 0, 1, 2, and 9
+appear the same number of times at the tens place. It is 3. 
 
 The hundreds digit of the mean is a little different becuase 0 is not there.
 Each of 1, 2, and 9 appears 16 times. So the hundreds of digit of the mean is
 
-$ ((1 + 2 + 9) * 16) / (3 * 26) =  (1 + 2 + 9) / 3 = 4 $.
+((1 + 2 + 9) * 16) / (3 * 16) =  (1 + 2 + 9) / 3 = 4.
 
 Now, we have figured out all the digits in the mean. The answer is 433.
+
+## Solve similar problems
+
+Can you quickly sovle similar problems? 
+
+* What is the mean of all three-digit positive integers whose digits are in the set {0, 3, 4, 5}?
+
+* What is the mean of all three-digit positive integers whose digits are in the set {0, 2, 3, 7}?
+
+* What is the mean of all three-digit positive integers whose digits are in the set {2, 4, 9}?
 
 </details>
 
