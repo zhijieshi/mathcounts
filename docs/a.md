@@ -2,7 +2,7 @@
 
 What is the mean of all three-digit positive integers whose digits are in the set {2, 0, 1, 9}?
 
-<details><summary markdown="span">Solutions</summary>
+<details markdown="1"><summary markdown="span">Solutions</summary>
 
 ## List all the numbers 
 
