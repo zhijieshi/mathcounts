@@ -4,6 +4,8 @@ What is the mean of all three-digit positive integers whose digits are in the se
 
 <details><summary>Solutions</summary>
 
+<p>
+
 ## List all the numbers 
 
 A straightfoward way is to list all possible 3-dgit numbers that have digits 2,
@@ -79,6 +81,8 @@ Can you quickly sovle similar problems?
 * What is the mean of all three-digit positive integers whose digits are in the set {0, 2, 3, 7}?
 
 * What is the mean of all three-digit positive integers whose digits are in the set {2, 4, 9}?
+
+</p>
 
 </details>
 
