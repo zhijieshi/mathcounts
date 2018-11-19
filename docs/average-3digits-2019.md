@@ -2,7 +2,7 @@
 
 What is the mean of all three-digit positive integers whose digits are in the set {2, 0, 1, 9}?
 
-<details><summary markdown="span">Solutions</summary>
+<details markdown="1"><summary markdown="span">Solutions</summary>
 
 ## List all the numbers 
 
@@ -58,7 +58,7 @@ If you count the nubmers that start with 2 and 9, each of 0, 1, 2, and 9 will
 appears 12 times. Therefore, the units digit of the mean is the mean of 0, 1,
 2, and 9. It can be calculated as:
 
-((0 + 1 + 2 + 9) * 12) / (4 * 12) = (0 + 1 + 2 + 9) / 4 = 3 . 
+$$ \frac{(1 + 2 + 9) \times 16}{3 \times 16} =  \frac{1 + 2 + 9}{3} = 4. $$
 
 The tens digit of the mean can be calculated similarly because 0, 1, 2, and 9
 appear the same number of times at the tens place. It is 3. 
@@ -66,7 +66,7 @@ appear the same number of times at the tens place. It is 3.
 The hundreds digit of the mean is a little different becuase 0 is not there.
 Each of 1, 2, and 9 appears 16 times. So the hundreds of digit of the mean is
 
-((1 + 2 + 9) * 16) / (3 * 16) =  (1 + 2 + 9) / 3 = 4.
+$$ \frac{(1 + 2 + 9) \times 16}{3 \times 16} =  \frac{1 + 2 + 9}{3} = 4. $$
 
 Now, we have figured out all the digits in the mean. The answer is 433.
 
