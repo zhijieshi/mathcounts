@@ -28,8 +28,10 @@ $$
 1 + 2^1 + 2^2 + 2^3 + 2^4 = 31.
 $$
 
-You may have noticed that this is the sum of first 5 terms in a geometric sequence. 
-And the last term in the sequence is $$ 2^4 $$, which is what we found in Step 1.
+You may have noticed that this is the sum of first 5 terms in a geometric
+sequence. The sequence starts from 1. Multiplying a term by 2 (the prime factor
+wer are considering now) gives us the next term. The last term we include is
+$$ 2^4 $$, which is what we found in Step 1.
 
 For 3, we calculate:
 
@@ -37,8 +39,8 @@ $$
 1 + 3^1 + 3^2 = 13.
 $$
 
-This is sum of first 3 terms of a geometric squence.
-And the last term $$ 3^2 $$ is what we found in Step 1.
+Similarly, this is the sum of first 3 terms of a geometric squence. 
+The last term $$ 3^2 $$ is what we found in Step 1.
 
 For 5, we calculate:
 
