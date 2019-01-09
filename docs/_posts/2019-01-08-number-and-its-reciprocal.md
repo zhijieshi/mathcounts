@@ -58,7 +58,7 @@ So the answer is $$ 2\sqrt{3} $$.
 
 ### Method 2
 
-Since $$ x + \frac{1}{x} = 4 $$, we can try to the equation.
+Since $$ x + \frac{1}{x} = 4 $$, we can try to solve the equation and find out $$ x $$ first.
 
 Multiplying both sides by $$ x $$, we have
 
