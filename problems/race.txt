@@ -1,0 +1,37 @@
+There may be other cases, but we only consider one (as we already know the answer). 
+
+A goes 120 m/min.
+B goes 100 m/min.
+
+A needs to travel 500 m more than B. 
+
+A and B stops for 1 min every 200 m.
+
+Suppose B goes through n run and stop cycles (each cycle 3 minutes) and has finished the run phase in cycle n+1. The following should be the same: 
+
+3 * n + 2  + y = ( n + 3) *  8 / 3 + y
+
+where y is the the time B is waiting. 
+3: the period of B (2 min run + 1 min wait)
+8/3 : the period of A (5/3 min run + 1 min wait)
+
+The right hand side has the following assumptions: 
+A has finished (n + 3) cycles. Because B is finishing cycle n + 1. A needs two more cycles (each cycle is 200m. A needs finish two more cycles plus 100 meters). 
+
+Solve the equation for n: n = 18. So the time would be 3 * 18 + 2 + y = 56 + y.
+
+Now we need to find out y, the time A is running where B is waiting. We just need to find out how far A needs to run in that period of time (0 to 1 min).
+
+500 + 200 * n + 200 = (n + 3) * 200 + x
+
+Solve the equation for x: x = 100. (or you may just do 500 - 200 * 2).
+So A needs to run 100 m. It takes 100/120 = 5/6 min.
+
+So the total time is 56 + 5/6 min or 56 min 50 seconds.
+
+As I said before, there may be other cases. We can certainly consider more, but they may not work for this problem). For example, it works until A needs to run 520 m more. Probably we have the following cases;
+
+Case 1: A is running, B is waiting.
+Case 2: A is running, B is running.
+Case 3: A is waiting, B is waiting/running (This won't happen).
+
