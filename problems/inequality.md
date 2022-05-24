@@ -10,6 +10,7 @@ $$ \frac{1}{\sqrt{1+a}} + \frac{1}{\sqrt{1+b}} \leq \sqrt{2} $$
 
 <details>
   <summary>Hint</summary>
+  
   Square the left hand side and then apply AM-GM on the term that has square root. 
   The two numbers are $a$ and 1.
 </details>
@@ -20,9 +21,26 @@ $$ \frac{\sqrt{a}}{\sqrt{(a+1)(a+2)}} \leq \sqrt{2} - 1 $$
 
 <details>
   <summary>Hint</summary>
+  
   Work on the LHS.
   Focus on the inside of the sqaure root. Transform to the following first.
-  $$ (\frac{1}{\sqrt{a+1}} + 1 - 1)\frac{a}{\sqrt{a+2}} + 1 - 1) $$
+  $$ (\frac{1}{\sqrt{a+1}} + 1 - 1)(\frac{\sqrt{a}}{\sqrt{a+2}} + 1 - 1) $$
   Apply AM-GM on the two terms that have $a$.
 </details>
 
+### Q3 
+Prove the following inequality.
+$$ \frac{1}{\sqrt{1+a}} + \frac{1}{\sqrt{1+2b}} \leq 2\sqrt{\sqrt{2}-1} $$
+
+<details>
+  <summary>Hint</summary>
+  Solve Q2 first.  
+</details>
+
+### Q4
+Prove the following inequality.
+$$ \frac{1}{\sqrt{1+a}} + \frac{1}{\sqrt{1+3b}} \leq 2\sqrt{\sqrt{3}-1} $$
+
+### Q5
+Prove the following inequality.
+$$ \frac{1}{\sqrt{1+a}} + \frac{1}{\sqrt{1+4b}} \leq \sqrt{\fraq{4}{3}} $$
