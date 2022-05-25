@@ -39,8 +39,13 @@ $$ \frac{1}{\sqrt{1+a}} + \frac{1}{\sqrt{1+2b}} \leq 2\sqrt{\sqrt{2}-1} $$
 
 ### Q4
 Prove the following inequality.
-$$ \frac{1}{\sqrt{1+a}} + \frac{1}{\sqrt{1+3b}} \leq 2\sqrt{\sqrt{3}-1} $$
+$$ \frac{1}{\sqrt{1+a}} + \frac{1}{\sqrt{1+3b}} \leq \sqrt{2(\sqrt{3}-1)} $$
 
 ### Q5
 Prove the following inequality.
-$$ \frac{1}{\sqrt{1+a}} + \frac{1}{\sqrt{1+4b}} \leq \sqrt{\fraq{4}{3}} $$
+$$ \frac{1}{\sqrt{1+a}} + \frac{1}{\sqrt{1+4b}} \leq \sqrt{\frac{4}{3}} $$
+
+### Q6
+Prove the following inequality.
+$$ \frac{1}{\sqrt{1+a}} + \frac{1}{\sqrt{1+kb}} \leq \sqrt{\frac{k}{k-1}} $$
+where $k \geq 4 $.
