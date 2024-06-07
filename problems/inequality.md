@@ -40,8 +40,27 @@ where $k \geq 4 $.
 
 ### Q1 
 
-Square the left hand side and then apply AM-GM on the term that has square root. 
-The two numbers are $a$ and 1.
+Because $ab = 1$, we have $(1+a)(1+b) = 1+a+b+ab = a + b + 2 = (1+a) + (1+b)$.
+
+Square the left hand side. 
+
+$$ \frac{1}{1+a} + \frac{2}{\sqrt{1+a}\sqrt{1+b}} + \frac{1}{1+b} $$
+
+$$ = \frac{(1+a)+(1+b)}{(1+a)(1+b)} + \frac{2}{\sqrt{1+a}\sqrt{1+b}} $$
+
+$$ = 1 + \frac{2}{\sqrt{1+a}\sqrt{1+b}} $$
+
+$$ = 1 + \frac{2\sqrt{1+a}\sqrt{1+b}}{(1+a)(1+b)} $$
+
+$$ = 1 + \frac{2\sqrt{(1+a)(1+b)}}{(1+a)+(1+b)} $$
+
+$$ = 1 + \frac{\sqrt{(1+a)(1+b)}}{\frac{(1+a)+(1+b)}{2}} $$
+
+$$ \le 1 + 1 = 2 $$
+
+We apply AM-GM on the second term in the $\le$ step.
+
+Since the both sides are non-negative, we can take the square root on both sides and obtain the original inequality.
 
 ### Q2
 
