@@ -12,7 +12,7 @@ $$ \frac{1}{\sqrt{1+a}} + \frac{1}{\sqrt{1+b}} \leq \sqrt{2} $$
 ### Q2 
 Prove the following inequality.
 
-$$ \frac{\sqrt{a}}{\sqrt{(a+1)(a+2)}} \leq \sqrt{2} - 1 $$
+$$ \frac{1}{\sqrt{(1+a)(1+2b)}} \leq \sqrt{2} - 1 $$
 
 ### Q3 
 Prove the following inequality.
@@ -64,17 +64,18 @@ Since the both sides are non-negative, we can take the square root on both sides
 
 ### Q2
 
-Start from the LHS. 
+Start from the LHS. Note that $ab = 1$.
 
-$$ LHS = \frac{\sqrt{a}}{\sqrt{a^2+3a+2}} = \frac{1}{\sqrt{a + \frac{2}{a} + 3}} $$
+$$ \frac{1}{\sqrt{(1+a)(1+2b)}} = \frac{1}{\sqrt{1 + 2b + a + 2ab}} = \frac{1}{\sqrt{a + \frac{2}{a} + 3}} $$
 
 Apply AM-GM on the two terms that have $a$. 
 
-$$ \frac{1}{\sqrt{a + \frac{2}{a} + 3}} \le \frac{1}{\sqrt{2\sqrt{a\cdot\frac{2}{a}} + 3}}$$
+$$ \frac{1}{\sqrt{a + \frac{2}{a} + 3}} \le \frac{1}{\sqrt{2\sqrt{a\cdot\frac{2}{a}} + 3}} 
+= \frac{1}{\sqrt{2\sqrt{2} + 3}} = \frac{1}{\sqrt{2} + 1} = \sqrt{2} - 1 $$
 
-Continue to simplify the RHS.
+It can be generalized. For $k \ge 2$, 
 
-$$ RHS = \frac{1}{\sqrt{2\sqrt{2} + 3}} = \frac{1}{\sqrt{2} + 1} = \sqrt{2} - 1$$
+$$ \frac{1}{\sqrt{(1+a)(1+kb)}} \leq \frac{1}{\sqrt{k} + 1} \quad $$
 
 ### Q3
 
@@ -92,9 +93,10 @@ $$ = 2 - \left( \frac{1}{(1+a)(1+2b)} - \frac{2}{\sqrt{1+a}\sqrt{1+2b}} + 1 \rig
 
 $$ = 2 - \left( 1 - \frac{1}{\sqrt{1+a}\sqrt{1+2b}} \right)^2$$
 
-To maximize the expression, we need to minimize the square and then we need to maximize the second term in the parentheses. We know its max value from Q2. So the expression is 
+To maximize the expression, we need to minimize the square and then we need to maximize the second term in the parentheses. We know its max value from Q2. 
+Therefore,
 
-$$ \le 2 - \left( 1 - (\sqrt{2} - 1) \right)^2 = 2 - ( 2 - \sqrt{2})^2 = 4 (\sqrt{2} - 1)$$
+$$ LHS^2 \le 2 - \left( 1 - (\sqrt{2} - 1) \right)^2 = 2 - ( 2 - \sqrt{2})^2 = 4 (\sqrt{2} - 1)$$
 
 ### Q4
 
@@ -114,6 +116,40 @@ $$ = \frac{3}{2} - \left( \frac{\sqrt{2}}{2} - \frac{\sqrt{2}}{\sqrt{1+a}\sqrt{1
 
 $$ = \frac{3}{2} - 2 \left( \frac{1}{2} - \frac{1}{\sqrt{1+a}\sqrt{1+3b}} \right)^2$$
 
-To maximize the expression, we need to minimize the square and then we need to maximize the second term in the parentheses. So the expression is 
+To maximize the expression, we need to minimize the square and then we need to maximize the second term in the parentheses. Its max value, according to Q2, is 
 
-$$ \le \frac{3}{2} - 2 \left( \frac{1}{2} - \frac{\sqrt{3}-1}{2} \right)^2 = \frac{3}{2} - \frac{1}{2} ( 2 - \sqrt{3})^2 = \frac{3}{2} - \frac{1}{2} ( 7 - 4 \sqrt{3}) = 2 \sqrt{3} - 2$$
+$$ \frac{1}{\sqrt{3} + 1} = \frac{\sqrt{3}-1}{2}$$
+
+Therefore, 
+
+$$ LHS^2 \le \frac{3}{2} - 2 \left( \frac{1}{2} - \frac{\sqrt{3}-1}{2} \right)^2 = \frac{3}{2} - \frac{1}{2} ( 2 - \sqrt{3})^2 = \frac{3}{2} - \frac{1}{2} ( 7 - 4 \sqrt{3}) = 2 \sqrt{3} - 2$$
+
+### Q5
+
+Square both sides. 
+
+$$ LHS^2 = \frac{1}{1+a} + \frac{2}{\sqrt{1+a}\sqrt{1+4b}} + \frac{1}{1+4b}$$
+
+$$ = \frac{(1+a)+(1+4b)}{(1+a)(1+4b)} + \frac{2}{\sqrt{1+a}\sqrt{1+4b}} $$
+
+$$ = \frac{(1+a)+(4ab+4b) - 3}{(1+a)(1+4b)} + \frac{2}{\sqrt{1+a}\sqrt{1+4b}} $$
+
+$$ = 1 - \frac{3}{(1+a)(1+4b)} + \frac{2}{\sqrt{1+a}\sqrt{1+4b}} $$
+
+$$ = 1 + \frac{1}{3} - \left( \frac{3}{(1+a)(1+4b)} - \frac{2}{\sqrt{1+a}\sqrt{1+4b}} + \frac{1}{3} \right)$$
+
+$$ = \frac{4}{3} - \left( \frac{\sqrt{3}}{3} - \frac{\sqrt{3}}{\sqrt{1+a}\sqrt{1+4b}} \right)^2$$
+
+$$ = \frac{4}{3} - 3 \left( \frac{1}{3} - \frac{1}{\sqrt{1+a}\sqrt{1+4b}} \right)^2$$
+
+To maximize the expression, we need to minimize the square and then we need to maximize the second term in the parentheses. Its max value, according to Q2, is 
+
+$$ \frac{1}{\sqrt{4} + 1} = 1/3$$
+
+Therefore, 
+
+$$ LHS^2 \le \frac{4}{3} $$
+
+### Q6
+
+Similar to Q5.
