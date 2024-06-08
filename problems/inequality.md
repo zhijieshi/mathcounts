@@ -95,3 +95,25 @@ $$ = 2 - \left( 1 - \frac{1}{\sqrt{1+a}\sqrt{1+2b}} \right)^2$$
 To maximize the expression, we need to minimize the square and then we need to maximize the second term in the parentheses. We know its max value from Q2. So the expression is 
 
 $$ \le 2 - \left( 1 - (\sqrt{2} - 1) \right)^2 = 2 - ( 2 - \sqrt{2})^2 = 4 (\sqrt{2} - 1)$$
+
+### Q4
+
+Square both sides. 
+
+$$ LHS^2 = \frac{1}{1+a} + \frac{2}{\sqrt{1+a}\sqrt{1+3b}} + \frac{1}{1+3b}$$
+
+$$ = \frac{(1+a)+(1+3b)}{(1+a)(1+3b)} + \frac{2}{\sqrt{1+a}\sqrt{1+3b}} $$
+
+$$ = \frac{(1+a)+(3ab+3b) - 2}{(1+a)(1+3b)} + \frac{2}{\sqrt{1+a}\sqrt{1+3b}} $$
+
+$$ = 1 - \frac{2}{(1+a)(1+3b)} + \frac{2}{\sqrt{1+a}\sqrt{1+3b}} $$
+
+$$ = 1 + \frac{1}{2} - \left( \frac{2}{(1+a)(1+3b)} - \frac{2}{\sqrt{1+a}\sqrt{1+3b}} + \frac{1}{2} \right)$$
+
+$$ = \frac{3}{2} - \left( \frac{\sqrt{2}}{2} - \frac{\sqrt{2}}{\sqrt{1+a}\sqrt{1+3b}} \right)^2$$
+
+$$ = \frac{3}{2} - 2 \left( \frac{1}{2} - \frac{1}{\sqrt{1+a}\sqrt{1+3b}} \right)^2$$
+
+To maximize the expression, we need to minimize the square and then we need to maximize the second term in the parentheses. So the expression is 
+
+$$ \le \frac{3}{2} - 2 \left( \frac{1}{2} - \frac{\sqrt{3}-1}{2} \right)^2 = \frac{3}{2} - \frac{1}{2} ( 2 - \sqrt{3})^2 = \frac{3}{2} - \frac{1}{2} ( 7 - 4 \sqrt{3}) = 2 \sqrt{3} - 2$$
