@@ -64,11 +64,17 @@ Since the both sides are non-negative, we can take the square root on both sides
 
 ### Q2
 
-Work on the LHS. Focus on the inside of the sqaure root. Transform to the following first.
+Start from the LHS. 
 
-$$ (\frac{1}{\sqrt{a+1}} + 1 - 1)(\frac{\sqrt{a}}{\sqrt{a+2}} + 1 - 1) $$
+$$ LHS = \frac{\sqrt{a}}{\sqrt{a^2+3a+2}} = \frac{1}{\sqrt{a + \frac{2}{a} + 3}} $$
 
-Apply AM-GM on the two terms that have $a$.
+Apply AM-GM on the two terms that have $a$. 
+
+$$ \frac{1}{\sqrt{a + \frac{2}{a} + 3}} \le \frac{1}{\sqrt{2\sqrt{a\cdot\frac{2}{a}} + 3}}$$
+
+Continue to simplify the RHS.
+
+$$ RHS = \frac{1}{\sqrt{2\sqrt{2} + 3}} = \frac{1}{\sqrt{2} + 1} = \sqrt{2} - 1$$
 
 ### Q3
 
