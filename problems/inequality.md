@@ -78,4 +78,20 @@ $$ RHS = \frac{1}{\sqrt{2\sqrt{2} + 3}} = \frac{1}{\sqrt{2} + 1} = \sqrt{2} - 1$
 
 ### Q3
 
-Solve Q2 first.
+Square both sides. 
+
+$$ LHS^2 = \frac{1}{1+a} + \frac{2}{\sqrt{1+a}\sqrt{1+2b}} + \frac{1}{1+2b}$$
+
+$$ = \frac{(1+a)+(1+2b)}{(1+a)(1+2b)} + \frac{2}{\sqrt{1+a}\sqrt{1+2b}} $$
+
+$$ = \frac{(1+a)+(2ab+2b) - 1}{(1+a)(1+2b)} + \frac{2}{\sqrt{1+a}\sqrt{1+2b}} $$
+
+$$ = 1 - \frac{1}{(1+a)(1+2b)} + \frac{2}{\sqrt{1+a}\sqrt{1+2b}} $$
+
+$$ = 2 - \left( \frac{1}{(1+a)(1+2b)} - \frac{2}{\sqrt{1+a}\sqrt{1+2b}} + 1 \right)$$
+
+$$ = 2 - \left( 1 - \frac{1}{\sqrt{1+a}\sqrt{1+2b}} \right)^2$$
+
+To maximize the expression, we need to minimize the square and then we need to maximize the second term in the parentheses. We know its max value from Q2. So the expression is 
+
+$$ \le 2 - \left( 1 - (\sqrt{2} - 1) \right)^2 = 2 - ( 2 - \sqrt{2})^2 = 4 (\sqrt{2} - 1)$$
