@@ -62,6 +62,12 @@ We apply AM-GM on the second term in the $\le$ step.
 
 Since the both sides are non-negative, we can take the square root on both sides and obtain the original inequality.
 
+We can also show the second term is less than 1 as follows.
+
+$$ \frac{2}{\sqrt{1+a}\sqrt{1+b}} = \frac{2}{\sqrt{1+a+b+ab}} $$
+
+$$ = \frac{2}{\sqrt{a+b+2}} \le \frac{2}{\sqrt{2\sqrt{ab}+2}} = \frac{2}{\sqrt{2+2}} = 1$$
+
 ### Q2
 
 Start from the LHS. Note that $ab = 1$.
